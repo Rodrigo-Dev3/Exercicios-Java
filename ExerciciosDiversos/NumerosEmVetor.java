@@ -6,8 +6,6 @@ public class NumerosEmVetor {
     public static void main(String[] args) {
         
         Scanner scan = new Scanner(System.in);
-
-        
         int valor_maximo;
 
         System.out.print("Quantos números você vai digitar? ");
