@@ -18,7 +18,7 @@ public class Pensionato {
             for (int i = 0; i < quantidadeQuartos; i++) {
                 System.out.printf("#Aluguel #%d \n", i);
                 System.out.print("Informe o seu nome: ");
-                // Limpa o buffer da leitura anteior para ler a próxima - nome
+                // Limpa o buffer da leitura anteior - do nextInt - para ler a próxima - nome
                 scan.nextLine();
                 String nome = scan.nextLine();
                 System.out.print("Informe o seu e-mail: ");
