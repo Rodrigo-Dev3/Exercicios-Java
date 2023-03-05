@@ -39,4 +39,8 @@ public class ColaboradorEmpresa {
     public void aumentarSalario(double percentual) {
         this.salario += this.salario * percentual / 100.0;
     }
+
+    public String toString() {
+		return "Id: " + id + " | " + "Nome: " + nome + " | " + "Salário: " + String.format("%.2f", salario);
+	}
 }
