@@ -50,7 +50,9 @@ public class Principal {
             novaOrdem.AdicionarItem(novaOrdemItens);
         }
 
-       
+       System.out.println();
+       System.out.println("Resumo do pedido");
+       System.out.println(novaOrdemDePedidos);
 
  
 

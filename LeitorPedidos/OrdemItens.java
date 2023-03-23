@@ -29,9 +29,9 @@ public class OrdemItens {
         this.preco = preco;
     }
 
-    // public Double SubTotal(){
-
-    // }
+    public double SubTotal(){
+        return preco * quantidadeProdutos;
+    }
 
     public String toString(){
         StringBuilder novaStringBuilder = new StringBuilder();
